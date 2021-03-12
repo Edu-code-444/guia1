@@ -17,16 +17,12 @@ public class Caso15 {
 		
 		float importe_s = cantidad * precio;
 		float importe_d = importe_s / 3.24f;
+		float importe_e = importe_s / 3.75f;
 		
 		System.out.println("\n========= Resultados ==========");
 		System.out.println("Importe en soles....: " + df.format(importe_s));
 		System.out.println("Importe en dólares..: " + df.format(importe_d));
-		
-		//Euros
-		
-		
-		
-
+		System.out.println("Importe en euros....: " + df.format(importe_e));
 	}
 
 }
